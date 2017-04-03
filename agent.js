@@ -1,5 +1,6 @@
 'use strict';
+const qiniu = require('./lib/qiniu');
 
 module.exports = agent => {
-  // console.log('agent.config.env =', agent.config.env);
+  if (agent.config.qiniu.ak) qiniu(agent);
 };
