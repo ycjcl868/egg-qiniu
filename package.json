@@ -8,7 +8,8 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "qiniu"
   ],
   "dependencies": {
     "co-qiniu": "^1.0.1"
